@@ -18,7 +18,7 @@
     position: absolute;
     left: 46%;
     content: "";
-    top: 46%;
+    top: 46.2%;
     transform: translate(50%, 50%);
     width: 4%;
     height: 4%;
@@ -34,19 +34,19 @@
 .hours{
   background: #000;
   height: 20%;
-  left: 49.7%;
-  position: absolute;
+  left: 47.7%;
+  position: relative;
   top: 32%;
-  transform-origin: 100% 100%;
+  transform-origin: 97% 97%;
   width: 7px;
   border-radius: 50px;
 }
 .minutes{
   background: red;
   height: 109px;
-  left: 50.3%;
+  left: 50%;
   position: fixed;
-  top: 95px;
+  top: 88px;
   transform-origin: 50% 100%;
   width: 3.5px;
   border-radius: 60px;
@@ -55,10 +55,10 @@
 .second{
     background:green;
     height: 150px;
-    left: 50%;
+    left: 49.5%;
     position: fixed;
-    top: 85px;
-    transform-origin: 50% 100%;
+    top: 69px;
+    transform-origin: 92% 89%;
     width: 3px;
     border-radius: 50px;   
 }
@@ -67,6 +67,8 @@
       transform: rotateZ(360deg);
     }
   }
+
+
   .hours-container {
     animation: rotate 43200s infinite linear;
   }
@@ -75,6 +77,8 @@
   }
   .second-container {
     animation: rotate 60s infinite linear;
+
+
   } 
   
 
